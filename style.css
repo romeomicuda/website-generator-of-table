@@ -1,0 +1,105 @@
+body {
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.upperLayer {
+    width: 50%;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+tr,
+td,
+th {
+    padding: 10px
+}
+
+.content {
+    border: 100px;
+    display: table;
+    table-layout: fixed;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 30px;
+}
